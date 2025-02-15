@@ -79,7 +79,6 @@ Clone the official Sofia-Sip repository into `/usr/local/src` directory
 
 ```bash
 $ sudo git clone https://github.com/freeswitch/sofia-sip /usr/local/src/sofia-sip
-$ git reset --hard 67d2455efe02e7ff0d897f3fd5636fed4d54549e
 ```
 
 Now run following commands in sequence to install the library
@@ -100,6 +99,7 @@ If `libsofia-sip` is not installed, there will be no output. If it is installed,
 Clone the SpanDSP repository from FreeSWITCH packages repository into `/usr/local/src` directory
 ```bash
 $ sudo git clone https://github.com/freeswitch/spandsp /usr/local/src/spandsp
+$ git reset --hard 67d2455efe02e7ff0d897f3fd5636fed4d54549e
 ```
 Now run following commands in sequence to install the library
 ```bash
